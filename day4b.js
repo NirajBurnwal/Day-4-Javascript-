@@ -17,7 +17,7 @@ const fetchCountryData = async () => {
 
     })
 }
-
+//Use the same rest countries and print all countries name, region, sub region and population.
 const fetchCountryData2 = async () => {
     const response = await fetch('https://restcountries.com/v2/all')
     const data = await response.json()
